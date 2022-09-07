@@ -9,7 +9,7 @@ class YT:
         self.url = url
         self.id = self.get_video_id_from_url(self.url)
         self.caption_filepath = self.get_caption_filepath()
-        self.video_filepath = self.get_video_id_from_url(self.url)
+        self.video_filepath = self.get_video_filepath()
         self.captions = None
 
     def __str__(self):
